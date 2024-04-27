@@ -1,0 +1,10 @@
+.show-text-fromPDF textarea {
+        font-family: Arial, sans-serif;  /* Change the font of the text */
+        font-size: 14px;  /* Change the size of the text */
+        color: #333;  /* Change the color of the text */
+        background-color: #f8f8f8;  /* Change the background color of the textarea */
+        border: 1px solid #ccc;  /* Add a border around the textarea */
+        padding: 10px;  /* Add some padding around the text */
+        width:400px;
+        height:500px;
+}

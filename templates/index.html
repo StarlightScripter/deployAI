@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AskYourPdf</title>
+    <link rel="stylesheet" type="text/css" href="static/css/style.css" />
+</head>
+<body>
+<section class="vision-board">
+    <p><a href="https://trello.com/invite/b/W9TaA8oa/ATTIdaec673266f61e375b1132a6abdefc471C216832/askyourpdf">Trello Sayfası, Proje Takibi</a> </p>
+</section>
+<section class="upload-file">
+    <h1>Upload new Pdf File</h1>
+     <form action = "/" method = "POST" enctype = "multipart/form-data">
+        <div class="form-group">
+            <input type = "file" name = "file" required /><br>
+            <input type = "submit" value="Submit"/>
+        </div>
+    </form>
+</section>
+<section class="show-text">
+    <div class="show-text-fromPDF">
+         <textarea rows="3" cols="5">
+            {{ text }}
+         </textarea>
+    </div>
+    <div class="show-text-fromAI">
+
+    </div>
+</section>
+</body>
+</html>
